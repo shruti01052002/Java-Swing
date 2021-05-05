@@ -10,7 +10,7 @@ class MyFirstFrame{
 		frame.setBounds(100, 100, 1000, 500);
 		frame.setTitle("My Frame");
 		
-		ImageIcon icon = new ImageIcon("small-icon.jpg");
+		ImageIcon icon = new ImageIcon("small-icon.png");
 		frame.setIconImage(icon.getImage());
 		
 		Container c = frame.getContentPane();
